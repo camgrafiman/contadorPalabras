@@ -1,0 +1,11 @@
+<h1>Palabra cogida: </h1>
+{{area1}}
+<h4>Hay un total de {{contar}} palabras.</h4>
+<a href="{% url 'home' %}"><button>Volver</button></a>
+<h1>Contando las palabras:</h1>
+{% for palabra, contar in ordenPalabras %}
+
+{{ palabra }} - {{ contar }}
+<br/>
+
+{% endfor %}
