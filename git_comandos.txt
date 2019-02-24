@@ -2,4 +2,5 @@ git init: una vez estemos en la carpeta sirve para empezar a usar git.
 git status: muestra el estado y los archivos que tiene el proyecto.
 git add -A: agrega todos los archivos listados en la carpeta actual.
 git commit -m "mensaje": el primer save point del proyecto agregando un comentario.
+git remote add origin https://github.com/camgrafiman/contadorPalabras.git : añadir la url remota de github donde se va a subir el codigo.
 
