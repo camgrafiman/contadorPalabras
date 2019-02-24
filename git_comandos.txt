@@ -4,4 +4,5 @@ git add -A: agrega todos los archivos listados en la carpeta actual.
 git commit -m "mensaje": el primer save point del proyecto agregando un comentario.
 git remote add origin https://github.com/camgrafiman/contadorPalabras.git : añadir la url remota de github donde se va a subir el codigo.
 git commit: enviar un nuevo save point del proyecto.
+git push -u origin master: subir a github
 
